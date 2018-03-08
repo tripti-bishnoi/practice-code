@@ -1,0 +1,19 @@
+
+4. When do you choose to write your own code, versus using a third-party library?  What are some pros and cons of using a third-party library?
+
+I would choose to write my own code versus a third-party library if it is not well-documented, tested and maintained with regular updates and patches. Also incase I have to monkey patch the third party library a lot to fit the needs of problem solving, its a valid reason to redesign the library in my own code thus removing the issues which may arise due to incompatibility of the monkey patch with the future implementation of the library.
+
+The pros of using a third party library is less time to development as we get readymade solutions which are well-tested and used by many other teams/developers. It also helps using standardised methods/processes of solving a known problem instead of a team/individual trying to reinvent the wheel. 
+
+The cons of using a third party library is mainly wrt to the maintainability of the library and the need for monkey patching it to fit the needs of a team/individual. An untested and unmaintained 3rd party library should never be used as it leads to losing a lot of time maintaining it down the line.
+
+
+5. You are making changes to an API that is used in Production by clients.  What kinds of changes would require you to create a new version of the API?
+
+
+The main reason to release a new version of the api in production is due to incompatible changes to the api interface which might break existing clients. One of the primary factors in api decision which is not honoured by a lot of teams unknowingly is the value of trust. The client trusts the api interface to remain the same across releases for the major version and also entrusts the api provider to notify them of deprecation and backward compatibility of the newer versions of the api being released. One does not need to update the major version of the api incase there are implementation changes.
+
+
+6. Square Pandas love dessert.  Are you a cake or pie fan?  Defend your answer!  :)
+
+I love cake and that because it tells people that other people love them. One can have a lot of pies in a life but there is always that one first birthday cake or the first graduation cake or a first anniversary cake you won't forget :) & I love a blueberry chiffon cake :)

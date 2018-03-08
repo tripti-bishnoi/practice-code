@@ -1,0 +1,20 @@
+java FlightsTaken "San Fraisco - Las Vegas" "Orange County - Seattle" "Las Vegas - Orlando" "Seattle - San Francisco"
+output:
+Orange County - Seattle
+Seattle - San Francisco
+San Francisco - Las Vegas
+Las Vegas - Orlando
+
+java FlightsTaken "San Francisco - San Francisco"
+output:
+San Francisco - San Francisco
+
+java FlightsTaken
+output:
+Please provide details of Flights, while running, In the Format: <departing city> - <destination city>
+
+java FlightsTaken "San Francisco - Las Vegas" "Orange County - Seattle" "Las Vegas - Orlando" "LA - San Francisco"
+output:
+LA - San Francisco
+San Francisco - Las Vegas
+Las Vegas - Orlando

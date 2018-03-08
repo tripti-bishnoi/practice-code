@@ -1,0 +1,17 @@
+java Anagrams
+Please provide Strings to compare, while running.
+
+java Anagrams iceman cinema
+True: iceman and cinema are anagrams of each other.
+
+java Anagrams steph curry
+False: steph and curry are not anagrams of each other.
+
+java Anagrams "A gentleman" "Elegant man"
+True: A gentleman and Elegant man are anagrams of each other.
+
+java Anagrams "a gentleman" "elegant man"
+True: a gentleman and elegant man are anagrams of each other.
+
+java Anagrams "Ronald Reagan" "A Darn Long Era"
+True: Ronald Reagan and A Darn Long Era are anagrams of each other.

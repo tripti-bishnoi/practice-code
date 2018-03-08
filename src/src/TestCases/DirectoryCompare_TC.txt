@@ -1,0 +1,12 @@
+java DirectoryCompare /Desktop/SquarePanda/home/usr/test1 /Desktop/SquarePanda/home/usr/test2
+output:
+Found file TriptiBishnoi.pdf in both directories:
+- /Users/triptibishnoi/Desktop/SquarePanda/home/usr/test1/TriptiBishnoi.pdf
+- /Users/triptibishnoi/Desktop/SquarePanda/home/usr/test2/TriptiBishnoi.pdf
+Found file app.js in both directories:
+- /Users/triptibishnoi/Desktop/SquarePanda/home/usr/test1/app.js
+- /Users/triptibishnoi/Desktop/SquarePanda/home/usr/test2/app.js
+
+java DirectoryCompare
+output:
+Please provide Directory Paths, while running.
